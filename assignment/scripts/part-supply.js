@@ -31,7 +31,7 @@ console.log('5. Adding 25 to supplyChanges.', supplyChanges);
 console.log('6. Showing supplyChanges...');
 
 
-
+//faod afnosi dahiaklfgjhfls aoiljguils
 // STRETCH GOALS
 console.log('---  Stretch Goals  ---');
 // 7. Rewrite the `for` loop from #6 as a `for of` loop. 
