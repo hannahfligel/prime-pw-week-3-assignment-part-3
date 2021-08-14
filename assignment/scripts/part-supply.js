@@ -47,11 +47,23 @@ console.log('---  Stretch Goals  ---');
 
 // 7. Rewrite the `for` loop from #6 as a `for of` loop. 
 
-while(x<supplyChanges[x])
-
 console.log('7. Showing supplyChanges with "for of" loop')
 
 // 8. Rewrite the `for` loop from #6 as a `while` loop.
+let x=0;
+while(x<supplyChanges.length){
+    console.log(supplyChanges[x])
+    if(supplyChanges[x]>0){
+        console.log('added',supplyChanges[x],'parts');
+    }
+    else if(supplyChanges[x]===0){
+        console.log('No change.');
+        }
+    else{ 
+        console.log('Removed', Math.abs(supplyChanges[x]),'parts'); 
+    }
+    x++;
+}
 
 
 console.log('8. Showing supplyChanges with "while" loop');
